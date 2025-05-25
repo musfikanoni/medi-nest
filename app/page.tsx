@@ -1,5 +1,4 @@
 import PatientForm from "@/components/forms/PatientForm";
-import { Link } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
           <div className="mt-20 flex justify-between text-14-regular">
             <p className="justify-end text-gray-600
              xl:text-left">© 2025 MediNest</p>
-             <Link href="/?admin=true">Admin</Link>
+             {/* <Link href="/admin=true">Admin</Link> */}
           </div>
         </div>
       </section>
